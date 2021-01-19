@@ -33,7 +33,6 @@ export default {
 
     const task = reactive({
       status: 'Активен',
-      id: Date.now().toString(),
       title: '',
       deadLineDate: '',
       description: '',

@@ -1,6 +1,5 @@
 <template >
   <div class="card">
-    <p>{{ taskData.id }}</p>
     <h2 class="card-title">
       {{ taskData.title }}
       <app-status :type="taskData.status"/>

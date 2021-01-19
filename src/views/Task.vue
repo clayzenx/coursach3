@@ -20,7 +20,7 @@
       <button
           class="btn danger"
           v-if="task.status === 'Выполняется'"
-          @click="changeStatus('Отменен')">>
+          @click="changeStatus('Отменен')">
         Отменить
       </button>
     </div>
